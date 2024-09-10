@@ -1,5 +1,6 @@
 package Ligacoes;
 
-public class AparelhoTelefonico {
-    
+public interface AparelhoTelefonico {
+    public void digitarNumero(double contatoAgendaCelular);
+    public void ligar();
 }

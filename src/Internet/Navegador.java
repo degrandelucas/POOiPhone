@@ -1,5 +1,6 @@
 package Internet;
 
-public class Navegador {
-    
+public interface Navegador {
+    void entrarNavegador(String url);
+    void acessarURL();
 }
